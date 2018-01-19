@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: DS-Boilerplate2-iotplat
+  host: DS-Boilerplate2-iotplat
+  disk_quota: 1024M
+  services:
+  - DS-Boilerplate2-iotplat-iotf-service
+  - DS-Boilerplate2-iotplat-cloudantNoSQLDB
